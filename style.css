@@ -1,0 +1,42 @@
+body {
+    overflow: hidden;
+    text-align: center;
+
+}
+
+#video_box {
+    height: 80%;
+    position: relative;
+}
+
+#friends_video {
+    bottom: 0;
+    right: 0;
+    background-color: #aaa;
+    border-radius: 2%;
+    width: 100%;
+    height: 100%;
+}
+
+#your_video {
+    background-color: #666;
+    border-radius: 2%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#call_button {
+  /*margin: 5px 0px 0px 10px !important;*/
+    width: 100%;
+    height: 10%;
+    font-size: 3em;
+}
+
+#session_id {
+    /*width: 100%;*/
+    height: 10%;
+    text-align: center;
+    font-size: 3em;
+}
