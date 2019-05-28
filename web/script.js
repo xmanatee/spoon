@@ -126,7 +126,7 @@ function endCall(event) {
 }
 
 window.onload = function () {
-    videoBox = document.getElementById("video_box")
+    videoBox = document.getElementById("video_box");
     yourVideo = document.getElementById("your_video");
     friendsVideo = document.getElementById("friends_video");
     callButton = document.getElementById("call_button");
